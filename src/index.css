@@ -1,0 +1,53 @@
+:root {
+  --background: var(--cinza-1300);
+  --foreground: #171918;
+  --surface: #f9f9f7;
+  --lime: #bbdc12;
+
+
+  --preto: #000000;
+  --cinza-100: #171918;
+  --cinza-200: #252a25;
+  --cinza-300: #353b35;
+  --cinza-400: #474e47;
+  --cinza-500: #5a635a;
+  --cinza-600: #6d766d;
+  --cinza-700: #828b81;
+  --cinza-800: #98a097;
+  --cinza-900: #acb3ab;
+  --cinza-1000: #bec4bc;
+  --cinza-1100: #cdd2cb;
+  --cinza-1200: #dce0da;
+  --cinza-1300: #e9eae7;
+  --cinza-1400: #f1f2ef;
+  --cinza-1500: #f9f9f7;
+  --branco: #ffffff;
+}
+
+* { 
+  box-sizing: border-box;
+  font-family: 'Satoshi', sans-serif;
+  max-width: 100%;
+}
+
+html { 
+  scroll-behavior: smooth;
+}
+
+body { 
+  margin: 0; 
+  background: var(--background); 
+  color: var(--foreground); 
+}
+
+::selection { 
+  background: var(--lime); 
+  color: var(--foreground);
+}
+
+.site-shell {
+  min-height: 100svh;
+  overflow: hidden;
+  background: radial-gradient(circle at 74% 27%, #fafbf7 0, transparent 31%),
+              linear-gradient(135deg, #efefec 0%, #e5e7e2 100%);
+}

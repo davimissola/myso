@@ -1,0 +1,68 @@
+.site-header {
+  position: fixed;
+  z-index: 10;
+  padding: 35px clamp(20px, 6.5vw, 150px) 0;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header-pill {
+  display: flex;
+  align-items: center;
+  gap: clamp(32px, 5vw, 90px);
+  min-height: 58px;
+  padding: 0 25px;
+  border: 1px solid rgb(255 255 255 / 65%);
+  border-radius: 16px;
+  background: rgb(255 255 255 / 74%);
+  box-shadow: 0 12px 35px rgb(34 40 29 / 4%);
+  backdrop-filter: blur(18px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: baseline;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.085em;
+  white-space: nowrap;
+}
+
+.brand img {
+    padding-top: 3px;
+    width: 70px;
+    height: auto;
+}
+
+.header-links { 
+    display: flex; 
+    align-items: center;
+    gap: clamp(20px, 2.35vw, 42px); 
+    white-space: nowrap; 
+
+}
+
+.header-links a {
+    font-size: .95rem;
+    font-weight: 450;
+    letter-spacing: -.025em;
+    transition: opacity 180ms ease;
+    text-decoration: none;
+    color: var(--cinza-500);
+    transition: all 0.3s ease;
+    padding-bottom: 1px;
+    border-bottom: 1px solid transparent;
+}
+
+.header-links a:hover {
+    color: var(--cinza-300);
+    border-bottom: 1px solid var(--cinza-300);
+}
