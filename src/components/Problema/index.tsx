@@ -15,7 +15,7 @@ export function Problema() {
     ];
 
     return (
-        <section className="section-problema">
+        <section className="section-problema" id='funcionamento'>
             <h3>Todas as grandes empresas tem seu time de tecnologia</h3>
 
             <div className="empresas-marquee" role="group" aria-label="Exemplos de grandes empresas">
@@ -35,7 +35,7 @@ export function Problema() {
                 </div>
             </div>
 
-            <h2>Se a sua empresa crescesse amanhã, a tecnologia acompanharia?</h2>
+            <h2>Até onde sua empresa poderia crescer com um time de tecnologia ao seu lado?</h2>
         </section>
     )
 }

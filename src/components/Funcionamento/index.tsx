@@ -15,7 +15,7 @@ const COPIAS = 3;
 
 export function Funcionamento() {
     return (
-        <section className="section-funcionamento" aria-label="Sites desenvolvidos">
+        <section className="section-funcionamento" id='servicos' aria-label="Sites desenvolvidos">
             <div className="mq">
                 <div
                     className="mq__track"
@@ -45,12 +45,15 @@ export function Funcionamento() {
             <div className='div-automacoes'>
                 <div className="div-automacoes__texto">
                     <span className="div-automacoes__categoria">
-                        Tecnologia no seu negócio
+                        Faça mais. Trabalhe menos
                     </span>
 
                     <h3>
-                        Menos tempo em tarefas manuais. Mais foco no que faz sua empresa avançar.
+                        Dê à sua equipe tempo para fazer mais.
                     </h3>
+                    <p>
+                        Automatizamos tarefas repetitivas e conectamos suas ferramentas para reduzir erros e trabalho manual. Sua equipe ganha tempo para atender melhor os clientes e fazer a empresa crescer.
+                    </p>
                 </div>
 
                 <div className="div-automacoes__visual">
@@ -75,8 +78,11 @@ export function Funcionamento() {
                     </span>
 
                     <h3>
-                        Menos informações espalhadas. Mais controle sobre toda a sua operação.
+                        Organize seu negócio como empresa grande
                     </h3>
+                    <p>
+                        Menos informações espalhadas. Mais controle sobre toda a sua operação.
+                    </p>
                 </div>
             </div>
         </section>

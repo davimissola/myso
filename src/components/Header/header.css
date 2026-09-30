@@ -17,7 +17,7 @@
   display: flex;
   align-items: center;
   gap: clamp(32px, 5vw, 90px);
-  min-height: 58px;
+  min-height: 50px;
   padding: 0 25px;
   border: 1px solid rgb(255 255 255 / 65%);
   border-radius: 16px;
@@ -56,13 +56,10 @@
     letter-spacing: -.025em;
     transition: opacity 180ms ease;
     text-decoration: none;
-    color: var(--cinza-500);
-    transition: all 0.3s ease;
-    padding-bottom: 1px;
-    border-bottom: 1px solid transparent;
+    color: var(--cinza-700);
+    transition: all 0.4s ease;
 }
 
 .header-links a:hover {
-    color: var(--cinza-300);
-    border-bottom: 1px solid var(--cinza-300);
+    color: var(--cinza-600);
 }

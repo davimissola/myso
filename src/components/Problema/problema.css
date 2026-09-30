@@ -71,11 +71,13 @@
 
 .section-problema h2 {
     text-align: center;
-    width: 1350px;
+    width: 1400px;
     max-width: 95%;
     margin: 0 auto;
-    font-weight: 450;
+    font-weight: 350;
     padding-top: 150px;
     color: var(--cinza-700);
-    font-size: clamp(2.5rem, 6vw, 5rem);
+    font-size: clamp(2.5rem, 6vw, 5.3rem);
+    line-height: clamp(45px, 7vw, 95px);
+    word-spacing: .05px;
 }

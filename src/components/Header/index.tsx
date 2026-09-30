@@ -11,9 +11,9 @@ export default function Header() {
             <img src={mysoVerdePNG} alt="" />
           </a>
           <div className="header-links">
-            <a href="#">Funcionamento</a>
-            <a href='#'>Serviços</a>
-            <a href='#'>Sobre</a>
+            <a href="#funcionamento">Funcionamento</a>
+            <a href='#servicos'>Serviços</a>
+            <a href='#'>Preço</a>
           </div>
         </nav>
       </div>
