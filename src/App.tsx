@@ -1,4 +1,5 @@
 import './App.css'
+import { Footer } from './components/Footer'
 import { Funcionamento } from './components/Funcionamento'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Problema />
       <Funcionamento />
+      <Footer />
     </>
   )
 }

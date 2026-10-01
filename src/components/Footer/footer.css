@@ -1,0 +1,38 @@
+.footer {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: var(--cinza-1400);
+}
+
+.footer-top {
+    display: flex;
+    gap: 120px;
+    padding-top: 60px;
+    padding-left: 30vh;
+}
+
+.footer-top div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.footer-top div h3 {
+    color: var(--cinza-700);
+    font-weight: 450;
+    font-size: 15px;
+}
+
+.footer-top div a {
+    text-decoration: none;
+    color: var(--cinza-100);
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.01px;
+    transition: all 0.5s ease;
+}
+
+.footer-top div a:hover {
+    color: var(--preto);
+    transform: translateX(10px);
+}

@@ -19,7 +19,9 @@ export default function Hero() {
                 ajudar e reúne as pessoas certas para desenvolver soluções e
                 acompanhar sua evolução.
             </p>
-            <a href="#">
+            <a 
+              href="https://wa.me/5519983789577?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20MYSO%20e%20gostaria%20de%20entender%20melhor%20como%20voc%C3%AAs%20podem%20ajudar%20minha%20empresa."
+            >
                 Crie com a Myso
             </a>
         </div>
